@@ -1,0 +1,83 @@
+/*Main page but all*/
+.bodyall {
+  background-color: Gray;
+}
+
+
+.jumbotron h1 {
+  color: RosyBrown;
+  text-align: left;
+  font-size: 120px;
+}
+
+.jumbotron {
+  background-color: Gray;
+}
+
+.tagline {
+  background-color: RosyBrown;
+  text-align: right;
+  color: Gray;
+}
+
+#circle-about {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50%;
+  background: #F09900;
+}
+
+#circle-bt {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50%;
+  background: #3300A0;
+}
+
+#circle-blog {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50%;
+  background: #0099EB;
+}
+
+#circle-contact {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50%;
+  background: #D20099;
+}
+
+
+/*About page*/
+#header-about h1 {
+  text-align: center;
+}
+
+#aboutme-section p{
+  text-align: center;
+}
+
+/*Projects page*/
+#header-projects h1{
+  text-align: center;
+}
+
+/*Blog page*/
+#header-blog h1{
+  text-align: center;
+}
+
+
+/*Contact page*/
+#header-contact h1{
+  text-align: center;
+}
