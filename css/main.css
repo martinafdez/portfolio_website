@@ -56,6 +56,17 @@
   background: #D20099;
 }
 
+#footer {
+    background-color: lightgrey;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
 
 /*About page*/
 #header-about h1 {
