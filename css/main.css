@@ -1,6 +1,6 @@
 /*Main page but all*/
 .bodyall {
-  background-color: Gray;
+  background-color: white;
 }
 
 
@@ -11,13 +11,24 @@
 }
 
 .jumbotron {
-  background-color: Gray;
+  background-color: white;
 }
 
 .tagline {
-  background-color: RosyBrown;
-  text-align: right;
-  color: Gray;
+  padding-bottom: 0px;
+  background-color: gray;
+  text-align: left;
+  color: RosyBrown;
+}
+
+
+
+#titlesection {
+  background: gray;
+}
+
+#colour-links {
+  background: white;
 }
 
 #circle-about {
@@ -69,17 +80,19 @@
 
 
 /*About page*/
-#header-about h1 {
-  text-align: center;
-}
 
-#aboutme-section p{
+#aboutme-section h2{
   text-align: center;
 }
 
 /*Projects page*/
 #header-projects h1{
   text-align: center;
+}
+
+#project-section {
+  text-align: center;
+  background: white;
 }
 
 /*Blog page*/
