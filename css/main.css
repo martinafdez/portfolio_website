@@ -6,18 +6,19 @@
 
 .jumbotron h1 {
   color: RosyBrown;
-  text-align: left;
+  text-align: center;
   font-size: 120px;
 }
 
 .jumbotron {
   background-color: white;
+  text-align: center;
 }
 
 .tagline {
   padding-bottom: 0px;
   background-color: gray;
-  text-align: left;
+  text-align: center;
   color: RosyBrown;
 }
 
@@ -25,47 +26,20 @@
 
 #titlesection {
   background: gray;
+  text-align: center;
 }
 
-#colour-links {
-  background: white;
+
+
+
+
+
+
+#intro-index {
+  text-align: center;
 }
 
-#circle-about {
-  width: 200px;
-  height: 200px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50%;
-  background: #F09900;
-}
 
-#circle-bt {
-  width: 200px;
-  height: 200px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50%;
-  background: #3300A0;
-}
-
-#circle-blog {
-  width: 200px;
-  height: 200px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50%;
-  background: #0099EB;
-}
-
-#circle-contact {
-  width: 200px;
-  height: 200px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50%;
-  background: #D20099;
-}
 
 #footer {
     background-color: lightgrey;
@@ -75,6 +49,13 @@
     height: 100px;
     width: 100%;
     overflow: hidden;
+}
+
+
+
+
+#footer p{
+    color: RosyBrown;
 }
 
 
