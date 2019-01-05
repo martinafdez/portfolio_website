@@ -29,14 +29,35 @@
   text-align: center;
 }
 
-
-
-
+nav {
+  padding-top: 0px;
+}
 
 
 
 #intro-index {
   text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
 }
 
 
@@ -64,6 +85,10 @@
 
 #aboutme-section h2{
   text-align: center;
+}
+
+#aboutme-section p{
+  text-align: left;
 }
 
 /*Projects page*/
