@@ -474,6 +474,14 @@ body {
   text-align: center;
 }
 
+.carousel-item h3{
+  color: black;
+}
+
+.carousel-item p{
+  color: black;
+}
+
 /* Make the image fully responsive */
 .carousel-inner img {
     width: 100%;
@@ -484,4 +492,14 @@ body {
 /*Contact page*/
 #header-contact h1{
   text-align: center;
+}
+
+
+
+#contact-section {
+  text-align: center;
+}
+#contact-section h2 {
+
+color: black;
 }
