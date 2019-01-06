@@ -9,19 +9,21 @@
   <!--bootstrap css link-->
   <link rel="stylesheet" href="css/main.css">
   <meta charset="utf-8" />
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 
 <body class="bodyall">
 
-  <nav class="col-md-12 navbar navbar-expand-lg navbar-light" style="background-color:white; opacity: .3; text-align: center">
+  <nav class="navbar navbar-inverse  navbar-expand-lg navbar-light" style="background-color:#383838; opacity: 1.0;">
     <div class="container">
       <a class="navbar-brand" href="index.html">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="nav navbar-nav nav-fill w-100" id="links">
           <li class="nav-item active">
             <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
           </li>
@@ -40,16 +42,53 @@
     </div><!--closes container nav-->
   </nav>
 
-  <header class="jumbotron jumbotron-fluid parallax" id="titlesection">
+  <header class="jumbotron jumbotron-fluid parallax" id="titlesection-about">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <h1>Martina F.</h1>
-          <p class="tagline">Linguist, Coder, BT furtHER Trainee</p>
+        <div class="col-md-12">
+          <h1>My Blog</h1>
+          <p class="tagline">Welcome to my blog!</p>
 
         </div>
-        <!--closes colmd 6-->
+        <!--closes colmd 12-->
   </header>
+
+
+  <div class="row">
+    <div class="col-md-12">
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/carousel1.jpg" alt="BT logo.">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/btoffice.jpg" alt="BT office.">
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+  </div>
+</div>
+
 
   <section id=project-section>
     <div="container">
@@ -61,21 +100,19 @@
   </div><!--closing container for section-->
   </section>
 
-
-  <footer id="footer">
+  <section id="footer-index" class="text-center">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 text-center footer-text ">
+        <div class="col-md-12">
 
-          <p>SOCIAL MEDIA LINKS GO HERE/SITEMAP</p>
+<p>Designed by Martina Fernandez.</p>
 
         </div>
-      </div>
-      <!--row-->
-    </div>
-    <!--closes container footer-->
-  </footer>
+        <!--closes colmd 12-->
+      </div><!--closes row-->
+    </div><!--container close-->
 
+  </section>
 
 
 </body>
