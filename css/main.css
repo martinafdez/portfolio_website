@@ -138,21 +138,33 @@ nav {
 #titlesection-about {
   background: #383838;
   text-align: center;
+
+
 }
 
 #aboutme-section h2{
   text-align: center;
   color: black;
+  justify-content: center;
+  align-items: center;
 }
 
 #aboutme-section p{
   text-align: center;
   color: black;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #aboutme-section {
   background: gold;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left:28%;
+  margin-right: 10%;
+
 
 }
 
@@ -489,7 +501,7 @@ body {
 }
 
 .carousel-item p{
-  color: black;
+  color: blue;
 }
 
 /* Make the image fully responsive */
@@ -498,6 +510,15 @@ body {
     height: 100%;
 }
 
+
+#blog-section h2 {
+  text-decoration: underline;
+}
+
+#blog-section {
+  margin-left:28%;
+  margin-right: 10%;
+}
 
 /*Contact page*/
 #header-contact h1{
